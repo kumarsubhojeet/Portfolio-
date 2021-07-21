@@ -25,6 +25,7 @@ const Home = () => {
 
   return (
     <>
+    
       <div className="photo">
         <div className="desc">
           <h2>Hi,I'am Subhojit</h2>
@@ -64,41 +65,33 @@ const Home = () => {
       </div>
 
     
-
-      <div
-        data-aos="flip-left"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="2200"
-        className="tec_aoc"
-      >
+     
+ 
+      <div data-aos="fade-right"  className="tec_aoc">
         <About />
       </div>
 
-      <div
-        data-aos="flip-right"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="2200"
-        className="tec_aoc"
-      >
-<Edu />
+   
 
-</div>
-<div data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500">
+<div data-aos="fade-left"  className="tec_aoc"><Edu /></div>
+
+
+
+
+
+<div data-aos="fade-up-right"  className="tec_aoc">
 
 <Services />
 </div>
 
       
-<div
-        data-aos="flip-left"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="2200"
-        className="tec_aoc"
-      >
-<Technology />
-</div>
+
+<div data-aos="fade-up-left"  className="tec_aoc"><Technology /></div>
+
+
+
+
+
 
 
 <div data-aos="zoom-out" className="tec_aoc">
@@ -113,10 +106,8 @@ const Home = () => {
       <div style={style}><i className="fas fa-chevron-up"></i></div>
     </BackTop>
 
-<div data-aos="fade-up" className="tec_aoc"
-     data-aos-anchor-placement="center-bottom">
+
        <Footer />
-</div>
 
 
 
