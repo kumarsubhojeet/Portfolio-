@@ -1,0 +1,52 @@
+
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+.project_main{
+      width: 100%;
+      margin: 0px auto;
+      height: auto;
+      background: #ebf5fb;
+}
+.project_heading{
+      margin: 0 auto;
+      text-align: center;
+}
+.projects_item{
+      width: 70%;
+      margin: 0 auto;
+      border: 2px solid transparent;
+      display: flex;
+      justify-content: center;
+}
+.Project_images{
+      margin: 8px 16px;
+      width: 250px;
+      height:250px;
+      background-image: cover;
+      transition: 1s all;
+      border-radius: 19px 19px 19px 19px ;
+      box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.Project_images:hover{
+      box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 790px) {
+      .projects_item{
+            width: 70%;
+            margin: 0 auto;
+            border: 2px solid transparent;
+            display: grid;
+            justify-content: center;
+      }
+
+
+}

@@ -1,0 +1,29 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+.navheading{
+      margin-left: 70px;
+}
+.nav_item{
+      margin-right: 50px;
+}
+
+.nav_link{
+      margin: 0 4px;
+      text-decoration: none;
+      color: black;
+      font-size:14px;
+}
+
+
+
+@media only screen and (max-width: 790px) {
+      .nav_item{
+            margin: 8px 0;
+      }
+      .navheading{
+            margin-left: 0px;
+      }
+    }

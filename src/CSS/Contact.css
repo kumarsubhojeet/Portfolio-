@@ -1,0 +1,59 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+.contact_main{
+      width: 100%;
+      margin: 0px auto;
+      height: 70vh;
+      background: #ebf5fb;
+      
+}
+.contact_head{
+      padding-top: 30px;
+      margin: 0 auto;
+      text-align: center;
+}
+.contact_child{
+      margin: 5px auto;
+      width: 60%;
+      text-align: center;
+      border-radius:19px 19px 19px 19px ;
+      box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.input_item{
+      display: flex;
+}
+.First_Name{
+      width: 50%;
+      margin: 10px 10px;
+}
+.Last_name{
+      width: 50%;
+      margin: 10px 10px;
+}
+.Email{
+      text-align: center;
+      width:80%;
+      margin: 10px auto;
+}
+.textArea{
+      text-align: center;
+      width:90%;
+      margin: 10px auto;
+}
+
+
+
+@media only screen and (max-width: 790px) {
+    
+      .contact_child{
+            margin: 5px auto;
+            width: 80%;
+            text-align: center;
+            border-radius:19px 19px 19px 19px ;
+            box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+      }
+
+}

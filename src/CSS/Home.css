@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.tec_aoc{
+  width: 100%;
+}
+.photo {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  margin: 0px auto;
+  background: #ebf5fb;
+}
+.desc {
+  border-top: 3px solid transparent;
+  width: 50%;
+  margin-top: 220px;
+  text-align: justify;
+}
+.desc h2 {
+  margin-left: 250px;
+}
+.desc p {
+  margin-left: 250px;
+}
+
+.profilr_pic {
+  text-align: left;
+  border: 2px solid transparent;
+  width: 50%;
+  margin-top: 20px;
+  margin-left: 120px;
+  
+}
+.desc2{
+      display: none;
+}
+.ppp {
+  background-image: cover;
+  margin-top: 0px;
+  background: rgb(229, 160, 9);
+  background: linear-gradient(
+    225deg,
+    rgba(229, 160, 9, 1) 0%,
+    rgba(220, 165, 25, 1) 0%,
+    rgba(239, 168, 0, 1) 100%
+  );
+  height: 450px;
+  border-radius: 50% 50% 61% 39% / 42% 52% 48% 58%;
+  transition: 1s all;
+}
+.ppp:hover {
+  background-image: cover;
+  margin-top: 0px;
+  background: rgb(229, 160, 9);
+  background: radial-gradient(
+    circle,
+    rgba(229, 160, 9, 1) 0%,
+    rgba(220, 165, 25, 1) 0%,
+    rgba(239, 116, 0, 1) 100%
+  );
+  height: 450px;
+  border-radius: 21% 79% 33% 67% / 57% 26% 74% 43%;
+}
+
+.resume {
+  margin-left: 250px;
+  font-size: 19px;
+  background: rgb(229, 160, 9);
+  border-radius: 200px 200px 200px 200px;
+  padding: 7px 12px;
+  text-decoration: none;
+  background: linear-gradient(
+    225deg,
+    rgba(229, 160, 9, 1) 0%,
+    rgba(220, 165, 25, 1) 0%,
+    rgba(239, 168, 0, 1) 100%
+  );
+  transition: 1s all;
+}
+.resume:hover {
+  margin-left: 250px;
+  font-size: 19px;
+
+  border-radius: 200px 200px 200px 200px;
+  padding: 7px 12px;
+  text-decoration: none;
+  background: rgb(229, 160, 9);
+  background: radial-gradient(
+    circle,
+    rgba(229, 160, 9, 1) 0%,
+    rgba(220, 165, 25, 1) 0%,
+    rgba(239, 116, 0, 1) 100%
+  );
+}
+
+.faas {
+  margin-left: 5px;
+}
+
+@media only screen and (max-width: 790px) {
+      .photo {
+            display: grid;
+            width: 100%;
+            height:auto;
+            background: #ebf5fb;
+          }
+
+      .desc {
+            display: none;
+          }
+          .profilr_pic{
+            border: 2px solid transparent;
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+          }
+          .ppp {
+            background-image: cover;
+            margin: 4px auto;
+            width: 80%;
+            background: rgb(229, 160, 9);
+            background: linear-gradient(
+                  225deg,
+                  rgba(229, 160, 9, 1) 0%,
+                  rgba(220, 165, 25, 1) 0%,
+                  rgba(239, 168, 0, 1) 100%
+                );
+            height: 450px;
+            transition: 1s all;
+          }
+          .desc2{
+            display: block;
+            text-align: center;
+      }
+
+      .resume {
+           margin: 0 auto;
+            font-size: 19px;
+            background: rgb(229, 160, 9);
+            border-radius: 200px 200px 200px 200px;
+            padding: 7px 12px;
+            text-decoration: none;
+            background: linear-gradient(
+              225deg,
+              rgba(229, 160, 9, 1) 0%,
+              rgba(220, 165, 25, 1) 0%,
+              rgba(239, 168, 0, 1) 100%
+            );
+            transition: 1s all;
+          }
+          .resume:hover {
+            margin: 0 auto;
+            font-size: 19px;
+          
+            border-radius: 200px 200px 200px 200px;
+            padding: 7px 12px;
+            text-decoration: none;
+            background: rgb(229, 160, 9);
+            background: radial-gradient(
+              circle,
+              rgba(229, 160, 9, 1) 0%,
+              rgba(220, 165, 25, 1) 0%,
+              rgba(239, 116, 0, 1) 100%
+            );
+          }
+
+
+}
