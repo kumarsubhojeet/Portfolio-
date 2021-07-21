@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background: #ebf5fb;
+}
 .tec_aoc{
   width: 100%;
 }
@@ -79,6 +82,7 @@
     rgba(239, 168, 0, 1) 100%
   );
   transition: 1s all;
+  margin-bottom: 10px;
 }
 .resume:hover {
   margin-left: 250px;
@@ -99,12 +103,18 @@
 .faas {
   margin-left: 5px;
 }
+.tec_aoc{
+  width: 80%;
+  margin: 0 auto;
+  border: 2px solid transparent;
+}
 
 @media only screen and (max-width: 790px) {
       .photo {
             display: grid;
             width: 100%;
-            height:auto;
+            height:100vh;
+          
             background: #ebf5fb;
           }
 
@@ -150,6 +160,9 @@
               rgba(239, 168, 0, 1) 100%
             );
             transition: 1s all;
+            margin-bottom: 20px;
+            padding: 10px 0;
+            border: 1px solid transparent;
           }
           .resume:hover {
             margin: 0 auto;
